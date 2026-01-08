@@ -116,13 +116,14 @@ author:
   name             : ""
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Small notes, small joys. :)"
-  location         : ""
+  location         : "PoHang"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+      url: "mailto:jerry10040691@gmail.com"
+<!-- 
+   - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
@@ -137,7 +138,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+-->
 # Site Footer
 footer:
   links:
