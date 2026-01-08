@@ -1,5 +1,5 @@
 ---
-title: "GitHub Pages 드디어 시작"
+title: "GitHub Pages 드디어 시작!"
 date: 2026-01-08
 categories: [Blog]
 tags: [GitHub Pages, Jekyll]
