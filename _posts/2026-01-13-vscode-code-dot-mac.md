@@ -25,6 +25,7 @@ tags: [vscode, macos, terminal]
 ---
 
 ## 3. 사용 방법
+터미널을 실행하고 원하는 프로젝트 폴더로 이동한 후에
 
 ```bash
 cd 프로젝트_폴더
