@@ -1,6 +1,7 @@
 ---
 title: "macOS 터미널에서 VS Code를 code .으로 실행하기"
 date: 2026-01-13
+layout: single
 categories: [Development, Tool]
 tags: [vscode, macos, terminal]
 ---
