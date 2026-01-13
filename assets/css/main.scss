@@ -1,9 +1,9 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
+# front matter 꼭 필요
 ---
 
-@charset "utf-8";
+@import "minimal-mistakes";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+.archive__item-title {
+  font-size: 1.2rem;   // 기본은 보통 1.5~1.75rem
+}
