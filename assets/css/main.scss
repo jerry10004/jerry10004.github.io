@@ -1,16 +1,118 @@
 ---
-# front matter 필수
 ---
 
 @import "minimal-mistakes";
 
-/* post 제목 크기 조절 + underline 제거 */
+/* =========================
+   Post List (노트형 목록)
+   ========================= */
+
+/* post 제목 */
 .archive__item-title a {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  color: #222;
+}
+
+/* hover 최소화 */
+.archive__item-title a:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+/* 모바일에서는 더 작게 */
+@media (max-width: 768px) {
+  .archive__item-title a {
+    font-size: 0.98rem;
+  }
+}
+
+/* =========================
+   Post Meta (날짜, 카테고리)
+   ========================= */
+
+.page__meta,
+.page__meta a {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* =========================
+   Post Content (본문)
+   ========================= */
+
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+/* 모바일 본문 */
+@media (max-width: 768px) {
+  .page__content {
+    font-size: 0.9rem;
+  }
+}
+
+/* =========================
+   Headings (본문 제목)
+   ========================= */
+
+.page__content h1 {
+  font-size: 1.5rem;
+}
+
+.page__content h2 {
+  font-size: 1.25rem;
+}
+
+.page__content h3 {
+  font-size: 1.1rem;
+}
+
+.page__content h4 {
+  font-size: 1rem;
+}
+
+/* =========================
+   Code Block (노트 느낌)
+   ========================= */
+
+.page__content code {
+  font-size: 0.85rem;
+}
+
+.page__content pre {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* =========================
+   Link (전체 underline 제거)
+   ========================= */
+
+.page__content a {
   text-decoration: none;
 }
 
-/* hover 시에도 underline 제거 */
-.archive__item-title a:hover {
-  text-decoration: none;
+.page__content a:hover {
+  text-decoration: underline; /* 본문에서는 hover 시만 */
+}
+
+/* =========================
+   Sidebar / Navigation
+   ========================= */
+
+.sidebar,
+.nav__list a {
+  font-size: 0.85rem;
+}
+
+/* =========================
+   Overall Tone
+   ========================= */
+
+body {
+  font-weight: 400;
 }
