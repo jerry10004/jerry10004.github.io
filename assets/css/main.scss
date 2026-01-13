@@ -1,9 +1,16 @@
 ---
-# front matter 꼭 필요
+# front matter 필수
 ---
 
 @import "minimal-mistakes";
 
-.archive__item-title {
-  font-size: 1.2rem;   // 기본은 보통 1.5~1.75rem
+/* post 제목 크기 조절 + underline 제거 */
+.archive__item-title a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* hover 시에도 underline 제거 */
+.archive__item-title a:hover {
+  text-decoration: none;
 }
