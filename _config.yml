@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Jerry1004"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logo.png"
   bio              : "Small notes, small joys. :)"
   location         : "PoHang"
   email            :
